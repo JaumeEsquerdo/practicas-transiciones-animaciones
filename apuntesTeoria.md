@@ -200,3 +200,53 @@ The method then selects elements from the start argument, and up to (but not inc
 - array toString()
 
 JavaScript automatically converts an array to a comma separated string when a primitive value is expected.
+
+
+- array indexOf()
+
+The indexOf() method searches an array for an element value and returns its position.
+
+```js
+let position = fruits.indexOf("Apple") + 1;
+```
+
+- includes()
+
+this allows us to check if an element is present in an array
+
+```js
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.includes("Mango"); // is true
+```
+
+- array find()
+
+The find() method returns the value of the first array element that passes a test function.
+
+
+```js
+
+const numbers = [4, 9, 16, 25, 29];
+let first = numbers.find(myFunction);
+
+document.getElementById("demo").innerHTML = "First number over 18 is " + first;
+
+function myFunction(value, index, array) {
+  return value > 18;
+}
+
+```
+
+- Array findIndex()
+
+- Array findLast() 
+
+- Array findLastIndex()
+
+
+
+
+
+
+
+
