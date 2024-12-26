@@ -4,7 +4,7 @@
 
 ```js
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
-let size = fruits.length;
+let size = fruits.length; //4
 ```
 
 - array toString()
@@ -74,12 +74,12 @@ Orange,Apple,Mango
 ```js
  fruits.unshift("Lemon");
 
- The unshift() method returns the new array length:
-
  // Lemon,Banana,Orange,Apple,Mango
 
  ```
+ The unshift() method returns the new array length:
 
+ 
  ...
 
  Array elements are accessed using their index number:
